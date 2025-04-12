@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+// En App.jsx o App.tsx
+import '../App.css';
+
 
 const Login = () => {
     const [email, setEmail] = useState('');
